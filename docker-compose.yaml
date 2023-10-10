@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  sn1:
+    container_name: next-compose
+    build: .
+    ports:
+      - '3000:3000'
+
